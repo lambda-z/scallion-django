@@ -7,7 +7,7 @@ setup(
     packages=find_packages(),
     install_requires=[
         'Django>=4.2',
-        # 其他依赖
+        'djangorestframework==3.15.2',
     ],
     python_requires='>=3.8',
     author='Rustor',
