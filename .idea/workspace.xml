@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bb73bc4-b8e8-40e1-8c6e-f12ad7ce09a3" name="Changes" comment="" />
+    <list default="true" id="2bb73bc4-b8e8-40e1-8c6e-f12ad7ce09a3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/pagination.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/scallion.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scallion.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,16 +21,26 @@
   <component name="CopilotPersistence">
     <persistenceIdMap>
       <entry key="_/Users/mac/projects/pailixue/scallion" value="3A1ZCEZE2dMqCpvXkOwzInDSn7u" />
+      <entry key="_/Users/mac/projects/rustor/scallion-django" value="3A1a2dlvvlrqVNQOHKRMfYlD097" />
     </persistenceIdMap>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="3A1ZCEZE2dMqCpvXkOwzInDSn7u" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -27,23 +48,32 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Django Server.scallion-django.executor": "Run",
     "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/mac/projects/rustor/scallion-django",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.intellij.python.django.customization.DjangoModulesConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="scallion" type="Python.DjangoServer" factoryName="Django server">
+    <configuration name="scallion-django" type="Python.DjangoServer" factoryName="Django server">
       <module name="scallion" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="scallion.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.12 (scallion-django)" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -77,8 +107,12 @@
       <option name="presentableId" value="Default" />
       <updated>1771761908008</updated>
       <workItem from="1771761914272" duration="4000" />
+      <workItem from="1771762326032" duration="6315000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
