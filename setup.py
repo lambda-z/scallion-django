@@ -5,6 +5,9 @@ setup(
     name='scallion-django',
     version='1.0.0',
     packages=find_packages(),
+    # 将common导出来
+    include_package_data=True,
+    # 添加依赖
     install_requires=[
         'Django>=4.2',
         'djangorestframework==3.15.2',
