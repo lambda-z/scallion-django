@@ -3,10 +3,8 @@ from setuptools import setup, find_packages
 
 setup(
     name='scallion-django',
-    version='1.0.2',
-    packages=[
-        'common',
-    ],
+    version='1.0.3',
+    packages=find_packages(),
     # 将common导出来
     include_package_data=True,
     # 添加依赖
