@@ -12,5 +12,6 @@
 ## Installation
 
 ```bash
+pip uninstall scallion-django -y
 pip install git+ssh://git@github.com/lambda-z/scallion-django.git@main
 ```
